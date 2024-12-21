@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kablammo&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!------Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark mb-5">
+        <div class="container-fluid">
+
+            <div class="nav-brand d-flex align-items-center">
+                <a href="#" class="text-decoration-none text-black">
+                    <h1 class="fw-bold police-kablammo ">LEONIE <span class="text-violet">GONDO</span></h1>
+                </a>
+            </div>
+          
+          <button class=" btn text-violet navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-warning active fw-bold" aria-current="page" href="index.html">ACCUEIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-light" href="#">A PROPOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-light" href="#">MES COMPETENCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-light" href="#">MES PROJETS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CONTACTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fw-bold " href="https://www.facebook.com/elo.oni.7?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook text-jaune"></i> Facebook</a></li>
+                  <li><a class="dropdown-item fw-bold" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram text-jaune"></i> Instagram</a></li>
+                  <li><a class="dropdown-item fw-bold" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok text-jaune" ></i> Tiktok</a></li>
+                  <li><a class="dropdown-item fw-bold" href="https://github.com/leoniegondo225" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github text-jaune"></i> Github</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="d-flex">
+                <a href="connexion.html" class="btn btn-outline-dark btn-md me-2 text-jaune text-light text-bg-warning fw-bold border-0">MESSAGERIE <i class="fa fa-face-smile "></i></a>
+            </div>
+            
+          </div>
+        </div>
+    </nav>
+
+    <!-------hero------------>
+    <section class="container mb-9">
+      <div class="hero rounded-2 ">
+        <div class="row justify-content-between pt-0 pb-5 mx-4">
+          <div class="col-md-7 col-lg-8 pb-5 mb-0 mb-lg-5">
+            <h2 class="text-dark fs-1">SALUT JE SUIS </h2>
+            <h1 class="text-warning fw-bold police-poppins  display-3 ">LEONIE GONDO DEVOLOPPEUSE WEB</h1>
+            <p class="  mb-0 police-Dancing+Script h5 text-secondary">Passionnée par la création de sites modernes et performants, <br/> j’utilise des technologies comme HTML, CSS, JavaScript et React pour offrir des expériences utilisateurs de qualité.</p>
+            
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning btn-lg text-light mt-5 rounded-5 border-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Contactez moi
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">ME CONTACTER</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="InscriptionSubmit" class="row mb-3">
+          <div class="col-lg-6">
+              <div class="input-group flex-nowrap mb-4 shadow  rounded-5  ">
+                  <span class="input-group-text border-end-0 bg-transparent border-0 rounded-start-5"
+                      id="addon-wrapping"><i class="fa fa-user fa-2x text-dark"></i></span>
+                  <input type="text"
+                      class="form-control border-start-0  border-0 p-3 rounded-end-5 champs  " id="nom"
+                      placeholder="Entrez votre nom" aria-label="name" aria-describedby="addon-wrapping">
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="input-group flex-nowrap mb-4 shadow  rounded-5  ">
+                  <span class="input-group-text border-end-0 bg-transparent border-0 rounded-start-5"
+                      id="addon-wrapping"><i class="fa fa-user fa-2x text-dark"></i></span>
+                  <input type="text"
+                      class="form-control border-start-0  border-0 p-3 rounded-end-5 champs  " id="prenom"
+                      placeholder="Entrez votre prenom" aria-label="name"
+                      aria-describedby="addon-wrapping">
+              </div>
+          </div>
+          <div class="col-lg-12">
+              <div class="input-group flex-nowrap mb-4 shadow  rounded-5  ">
+                  <span class="input-group-text border-end-0 bg-transparent border-0 rounded-start-5"
+                      id="addon-wrapping"><i class="fa fa-envelope fa-2x text-dark"></i></span>
+                  <input type="email"
+                      class="form-control border-start-0  border-0 p-3 rounded-end-5 champs  " id="email"
+                      placeholder="Email adresse" aria-label="email" aria-describedby="addon-wrapping">
+              </div>
+          </div>
+          <div class="col-lg-12 mb-3">
+            <div class=" flex-nowrap ">
+              <textarea class="form-control flex-nowrap mb-4 shadow  rounded-5" placeholder="Vos besoins" id="floatingTextarea"></textarea>
+            </div>
+          </div>
+          <div class="col-lg-12 ">
+              <button type="submit" id="btnSubmit" class="btn btn-warning btn-lg  text-white fw-bold rounded-2 p-2 m-2 shadow">Envoyer votre message</button>
+          </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+
+          <div class="col-md-5 col-lg-4  mb-3 mb-sm-0 ">
+            <div class="card shadow p-3 pb-0 border-0 text-jaune">
+              
+              <div class="rounded-3 overflow-hidden position-relative mb-3">
+                <img src="./images/2.jpg" class="card-img " alt="ma photo">
+              </div>
+
+              <div class="card-body px-2 text-center">
+                <h2 class="card-title fw-bold text-light">LEONIE GONDO</h2>
+                <p class="pt-2 text-light">Bienvenue dans le monde du développement Web !</p>
+                <a href="#" class="btn btn-md text-light text-bg-dark mt-3 rounded-5">Télechargé mon CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+  <script src="./vendors/bootstrap/js/bootstrap.bundle.js"></script>  
+</body>
+</html>
