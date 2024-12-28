@@ -47,3 +47,11 @@ body{
 .txt{
     background-color: #f799ef;
 }
+
+
+
+@media (max-width: 768px) {
+    .aropos{
+        margin-top: 50px;
+    } 
+}
