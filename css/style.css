@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(246, 246, 248),rgb(218, 223, 72))
+   
 }
 
 .police-kablammo{
@@ -15,16 +15,35 @@ body{
 }
 
 .text-jaune{
-    background-color: #ffc505;
+    background-color: #05cdff;
     
 }
 
+.textbleu{
+    background-color: #ddebeb;
+}
+.espacement-lignes{
+    line-height: 1.5;
+}
+
+.card:hover {
+    transition: ease, 0.3;
+    background-color: #b6e3ee;
+}
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgb(246, 246, 248),rgb(218, 223, 72));
+    background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: center;
     width: 100%;
     height: 450px;
     border-radius: 30px;
+}
+
+.texbg{
+    background-color: #90a1da;
+}
+
+.txt{
+    background-color: #f799ef;
 }
