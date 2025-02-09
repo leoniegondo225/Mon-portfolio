@@ -47,6 +47,22 @@
 }
 
 
+.carousel-item {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Vous pouvez modifier la largeur de la card selon vos préférences */
+  .roule {
+    width: 50%;
+    background-color: #dbe1f8;
+  }
+  .col{
+    background-color: #f8de86;
+    
+  }
+
 
 @media (max-width: 768px) {
     .aropos{
